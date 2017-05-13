@@ -68,6 +68,12 @@
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="SolcatTxt"/>
 						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="FaqTxt"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="SolutionTxt"/>
+						</Record>
 					</Collection>
 				</Annotation>
 				<Annotation Term="UI.Facets">

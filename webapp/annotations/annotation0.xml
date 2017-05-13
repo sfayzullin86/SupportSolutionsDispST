@@ -52,6 +52,11 @@
 						</PropertyValue>
 						<PropertyValue String="{@i18n&gt;@Solution}" Property="TypeName"/>
 						<PropertyValue String="{@i18n&gt;@Solutions}" Property="TypeNamePlural"/>
+						<PropertyValue Property="Description">
+							<Record Type="UI.DataField">
+								<PropertyValue Property="Value" Path="FaqTxt"/>
+							</Record>
+						</PropertyValue>
 					</Record>
 				</Annotation>
 				<Annotation Term="UI.Identification">

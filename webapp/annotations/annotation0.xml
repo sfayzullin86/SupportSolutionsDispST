@@ -37,9 +37,11 @@
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="CategoryId"/>
+							<PropertyValue Property="Label" String="{@i18n&gt;@SolutionCategory}"/>
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="SolcatTxt"/>
+							<PropertyValue Property="Label" String="{@i18n&gt;@SolutionCategoryDesc}"/>
 						</Record>
 					</Collection>
 				</Annotation>
@@ -69,9 +71,11 @@
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="CategoryId"/>
+							<PropertyValue Property="Label" String="{@i18n&gt;@SolutionCategory}"/>
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="SolcatTxt"/>
+							<PropertyValue Property="Label" String="{@i18n&gt;@SolutionCategoryDesc}"/>
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="FaqTxt"/>

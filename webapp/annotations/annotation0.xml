@@ -26,7 +26,7 @@
 	</edmx:Reference>
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm">
-			<Annotations Target="ZSTS_SRV.SOLUTION">
+			<Annotations Target="ZSTS_SRV.SOLUTIONDISP">
 				<Annotation Term="UI.LineItem">
 					<Collection>
 						<Record Type="UI.DataField">
@@ -34,6 +34,9 @@
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="Description"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="CategoryId"/>
 						</Record>
 					</Collection>
 				</Annotation>
@@ -58,8 +61,22 @@
 						</Record>
 					</Collection>
 				</Annotation>
+				<Annotation Term="UI.Facets">
+					<Collection>
+						<Record Type="UI.CollectionFacet">
+							<PropertyValue Property="Facets">
+								<Collection>
+									<Record Type="UI.ReferenceFacet">
+										<PropertyValue String="{@i18n&gt;@SOLUTION_INFO}" Property="Label"/>
+										<PropertyValue String="RFSolutionInfo" Property="ID"/>
+										<PropertyValue Property="Target" AnnotationPath="@UI.Identification"/>
+									</Record>
+								</Collection>
+							</PropertyValue>
+						</Record>
+					</Collection>
+				</Annotation>
 			</Annotations>
-			<Annotations Target="ZSTS_SRV.SOLUTIONDISP"/>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>

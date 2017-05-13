@@ -96,6 +96,11 @@
 						</Record>
 					</Collection>
 				</Annotation>
+				<Annotation Term="UI.SelectionFields">
+					<Collection>
+						<PropertyPath>CategoryId</PropertyPath>
+					</Collection>
+				</Annotation>
 			</Annotations>
 		</Schema>
 	</edmx:DataServices>

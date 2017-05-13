@@ -62,6 +62,12 @@
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="Description"/>
 						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="CategoryId"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="SolcatTxt"/>
+						</Record>
 					</Collection>
 				</Annotation>
 				<Annotation Term="UI.Facets">

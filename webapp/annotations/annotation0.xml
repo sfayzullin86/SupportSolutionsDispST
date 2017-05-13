@@ -48,6 +48,16 @@
 						<PropertyValue String="{@i18n&gt;@Solutions}" Property="TypeNamePlural"/>
 					</Record>
 				</Annotation>
+				<Annotation Term="UI.Identification">
+					<Collection>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="SolutionId"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="Description"/>
+						</Record>
+					</Collection>
+				</Annotation>
 			</Annotations>
 			<Annotations Target="ZSTS_SRV.SOLUTIONDISP"/>
 		</Schema>

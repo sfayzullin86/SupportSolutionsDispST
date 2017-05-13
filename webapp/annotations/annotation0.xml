@@ -37,7 +37,19 @@
 						</Record>
 					</Collection>
 				</Annotation>
+				<Annotation Term="UI.HeaderInfo">
+					<Record>
+						<PropertyValue Property="Title">
+							<Record Type="UI.DataField">
+								<PropertyValue Property="Value" Path="Description"/>
+							</Record>
+						</PropertyValue>
+						<PropertyValue String="{@i18n&gt;@Solution}" Property="TypeName"/>
+						<PropertyValue String="{@i18n&gt;@Solutions}" Property="TypeNamePlural"/>
+					</Record>
+				</Annotation>
 			</Annotations>
+			<Annotations Target="ZSTS_SRV.SOLUTIONDISP"/>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
